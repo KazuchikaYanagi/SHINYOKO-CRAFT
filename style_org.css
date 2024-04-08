@@ -1,0 +1,321 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #24292e;
+}
+
+a {
+    text-decoration: none;
+    color: #24292e;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 2.0rem;   
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.wrapper {
+    padding: 100px 2% 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ccffcc;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 2%;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.header-left a {
+    max-width: 90%;
+    height: auto;
+}
+
+.haeder-left a img {
+    width:  250px;
+    height: 50%;
+}
+
+.haeder-left p {
+    font-size: 0.3rem;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック"; 
+    font-weight: bold;
+}
+
+.header-right ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+    line-height: 85px;
+}
+
+.header-right ul li {
+    padding-left: 15px;
+    transition: all 0.3s;
+}
+
+.header-right ul li:hover {
+    opacity: 0.5;
+}
+
+.memory {
+    height: 650px;
+    background-image: url(img/familiy.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    position: relative;
+}
+
+.memory h1 {
+    text-align: center;
+    /* color: whitesmoke; */
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: black;
+}
+
+.message {
+    color: #ffffe0;
+    display:inline;
+    backdrop-filter: blur(2px);
+    border-radius: 30%;
+    padding: 15px;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック"; 
+    font-weight: bold;
+}
+
+.about-top h1 {
+    margin-bottom: 15px;
+}
+
+#about {
+    text-align: center;
+}
+
+.shinyoko-hover {
+    text-align: center;
+}
+
+.detail {
+    display: inline-block;
+    text-align: left;
+}
+
+#about .detail {
+    display: none;
+    /* text-align: left; */
+    margin-top: 30px;
+    font-size: 1.0rem;
+    padding: 0 10%;
+}
+
+#faq h1 {
+    margin-bottom: 15px;
+}
+
+#faq ul {
+    list-style: none;
+    display: inline-block;
+}
+
+#faq ul li {
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+#faq ul p {
+    text-align: left;
+    padding: 15px;
+}
+
+.answer {
+    display: none;
+    font-size: 1.0rem;
+}
+
+.text-active {
+    display: block;
+}
+
+#order a {
+    opacity: 0.7;
+}
+
+#contact {
+    padding-bottom: 100px;
+}
+
+#contact a {
+    opacity: 0.7;
+}
+
+#portfolio {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#portfolio a {
+    opacity: 0.7;
+}
+
+footer {
+    background-color: #ccffcc;
+    padding: 25px 2% 0;
+}
+
+.footer-compornent {
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+footer .copyright {
+    text-align: center;
+    /* color: white; */
+    margin-top: 15px;
+}
+
+footer .copyright p {
+    font-size: 1.0rem;
+}
+
+footer #profile {
+    text-align: center;
+}
+
+#profile {
+    padding-top: 5px;
+}
+
+#profile h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#profile p {
+    font-size: 1.0rem;
+    padding-top: 15px;
+}
+
+.producer {
+    display: flex;
+    justify-content: center;
+}
+
+.producer img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.producer-right {
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+.producer-right h3 {
+    color: #708090;
+}
+
+#sns {
+    display: flex;
+    padding-top: 100px;
+}
+
+footer #instagram {
+    flex: 40%;
+}
+
+#instagram h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+footer #x {
+    flex: 40%;
+}
+
+#x h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 950px) {
+    header { 
+        display: inline-block; 
+        flex-direction: column; 
+        padding: 5px; 
+        /* width: 100%; */
+    }
+
+    .header-left { 
+        text-align: center;
+    }
+
+    .header-right ul {
+     }
+
+    .header-right ul li {
+        flex: auto;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    /* header */
+    .wrapper {
+        padding: 5px 4% 0;
+    }
+
+    header {
+        display: inline-block;
+        flex-direction: column;
+    }
+
+    .header-left a {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .header-left a img {
+        justify-content: space-between;
+        position: relative
+    }
+
+    .header-right {
+        font-size: 0.8rem;
+        justify-content: space-between;
+    }
+
+    main h1 {
+        font-size: 1.7rem;
+        margin-top: 50px;
+    }
+
+    main h2 {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media screen and (min-width: 360px) {
+    
+}

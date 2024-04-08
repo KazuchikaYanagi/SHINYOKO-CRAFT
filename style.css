@@ -1,0 +1,378 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #24292e;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #24292e;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 2.0rem;   
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+li.btn {
+    font-size: 1.6rem;
+}
+
+.wrapper {
+    padding: 100px 2% 0;
+    text-align: center;
+}
+
+header {
+    /* background-color: #ccffcc; */
+    background-color: #009900;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 2%;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.header-left a {
+    /* max-width: 90%; */
+    /* height: auto; */
+}
+
+.haeder-left a img {
+    /* width:  250px; */
+    /* height: 50%; */
+}
+
+.haeder-left p {
+    font-size: 0.3rem;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック"; 
+    font-weight: bold;
+}
+
+.header-right ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+    line-height: 85px;
+}
+
+.header-right ul li {
+    padding-left: 15px;
+    transition: all 0.3s;
+}
+
+.header-right ul li:hover {
+    opacity: 0.5;
+}
+
+.memory {
+    height: 650px;
+    background-image: url(img/familiy.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    position: relative;
+    width: 100%;
+}
+
+.memory h1 {
+    text-align: center;
+    /* color: whitesmoke; */
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: black;
+}
+
+.message {
+    color: #ffffe0;
+    display:inline;
+    backdrop-filter: blur(2px);
+    border-radius: 30%;
+    padding: 15px;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック"; 
+    font-weight: bold;
+}
+
+.about-top h1 {
+    margin-bottom: 15px;
+}
+
+#about {
+    text-align: center;
+}
+
+.shinyoko-hover {
+    text-align: center;
+    /* position: relative; */
+}
+
+.shinyoko-hover h2 {
+    display: inline-block;
+}
+
+.shinyoko-hover span {
+    font-size: 1.3rem;
+}
+
+.detail {
+    display: inline-block;
+    text-align: left;
+}
+
+#about .detail {
+    display: none;
+    /* text-align: left; */
+    margin-top: 30px;
+    font-size: 1.0rem;
+    padding: 0 10%;
+}
+
+#faq h1 {
+    margin-bottom: 15px;
+}
+
+#faq ul {
+    list-style: none;
+    display: inline-block;
+}
+
+#faq ul li {
+    /* font-size: 1.6rem; */
+    text-align: left;
+}
+
+#faq ul p {
+    text-align: left;
+    padding: 15px;
+}
+
+.faq-item {
+    position: relative;
+}
+
+.faq-item span {
+    position: absolute;
+    top: 3px;
+    right: -20px;
+    font-size: 1.3rem;
+}
+
+.answer {
+    display: none;
+    font-size: 1.0rem;
+}
+
+.text-active {
+    display: block;
+}
+
+#order a {
+    opacity: 0.7;
+}
+
+#contact {
+    padding-bottom: 100px;
+}
+
+#contact a {
+    opacity: 0.7;
+}
+
+#portfolio {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#portfolio a {
+    opacity: 0.7;
+}
+
+footer {
+    /* background-color: #ccffcc; */
+    background-color: #009900;
+    padding: 25px 2% 0;
+}
+
+.footer-compornent {
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+footer .copyright {
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer .copyright p {
+    font-size: 1.0rem;
+}
+
+footer #profile {
+    text-align: center;
+}
+
+#profile {
+    padding-top: 5px;
+}
+
+#profile h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#profile p {
+    font-size: 1.0rem;
+    padding-top: 15px;
+}
+
+.producer {
+    display: flex;
+    justify-content: center;
+}
+
+.producer img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.producer-right {
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+.producer-right h3 {
+    /* color: #fff; */
+}
+
+#sns {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer #instagram {
+    flex: 40%;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#instagram h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+footer #x {
+    flex: 40%;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#x h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        display: inline-block;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    ul li.btn {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    main {
+        margin-top: 171px;
+    }
+
+    header {
+        flex-direction: column;
+        max-width: 600px;
+        position: fixed;
+    }
+
+    .header-left {
+        text-align: center;
+    }
+
+    .header-left .logo img {
+        max-width: 350px;
+    }
+
+    .header-right ul {
+        justify-content: space-between;
+    }
+
+    .header-right ul li {
+        transform: translate(all 0.3s);
+        font-weight: bold;
+    }
+
+    .header-right ul li:hover {
+        opacity: 0.7;
+    }
+
+    .header-right ul li a {
+        font-size: 1.0rem;
+    }
+
+    #about {
+        padding-top: 171px;
+    }
+
+    #faq {
+        padding-top: 171px;
+    }
+
+    #order {
+        padding-top: 171px;
+    }
+
+    #contact {
+        padding-top: 171px;
+    }
+
+    #portfolio {
+        padding-top: 171px;
+    }
+
+    #sns {
+        flex-direction: column;
+    }
+
+    #x h1 {
+        padding-top: 100px;
+    }
+}
